@@ -1,5 +1,6 @@
 def simple_curfew_checker(time)
-  
+ if time.now.hour >=11
+   puts "you're in trouble"
   # code goes here
 end
 
